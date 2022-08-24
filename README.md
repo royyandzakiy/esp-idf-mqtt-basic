@@ -1,6 +1,6 @@
 # ESP IDF MQTT - Basic
 
-This is a basic implementation of the [MQTT example from esp idf SDK](https://github.com/espressif/esp-idf/tree/ae256e9ca23a85e05f6a9ff31805028d3e823f4d/examples/protocols/mqtt/tcp). 
+This is a basic implementation of the [MQTT example from esp idf SDK](https://github.com/espressif/esp-idf/tree/ae256e9ca23a85e05f6a9ff31805028d3e823f4d/examples/protocols/mqtt/tcp) with some changes to make it work for ESP IDF `release/v4.4.1`.
 
 ## IMPORTANT: 
 I use ESP IDF in **release/v4.4.1**, other versions may or may not work accordingly
