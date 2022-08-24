@@ -30,7 +30,7 @@ I use ESP IDF in **release/v4.4.1**, other versions may or may not work accordin
 ---
 
 ## Changes
-I made some changes, because in implementation of the `esp_mqtt_client_config_t` from the original example. this way it will work.
+I made some changes, because incompatibility of usage of the `esp_mqtt_client_config_t` from the original example (i think it uses a different esp idf version, haven't tracked which though). making these changes will make it work.
 ```
     esp_mqtt_client_config_t mqtt_cfg = {
         .host = CONFIG_BROKER_URL,
