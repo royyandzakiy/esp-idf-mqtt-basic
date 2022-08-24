@@ -15,8 +15,8 @@ I use ESP IDF in **release/v4.4.1**, other versions may or may not work accordin
     - WiFi SSID
     - WiFi Password (keep empty if there is none)
     - MQTT Broker URL
-    - MQTT Broker Username
-    - MQTT Broker Password
+    - MQTT Broker Username (keep empty if there is none)
+    - MQTT Broker Password (keep empty if there is none)
 - Build, Compile, Flash, Monitor
 - Check you broker for the topic `/topic/qos1`, there should be a message `data_3`
 - You can test the mqtt of the device by publishing to the topic `/topic/qos0`
