@@ -132,6 +132,8 @@ CONFIG_PARTITION_TABLE_MD5=y
 # Example Configuration
 #
 CONFIG_BROKER_URL="161.97.179.79"
+CONFIG_BROKER_USERNAME="aquifera"
+CONFIG_BROKER_PASSWORD="Aquiferan"
 # end of Example Configuration
 
 #

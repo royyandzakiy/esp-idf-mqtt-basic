@@ -104,15 +104,13 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
     }
 }
 
-// #define CONFIG_BROKER_URL_FROM_STDIN true
-
 static void mqtt_app_start(void)
 {
     esp_mqtt_client_config_t mqtt_cfg = {
         .host = CONFIG_BROKER_URL,
         .port = 1883,
-        .username = "aquifera",
-        .password = "Aquiferan",
+        .username = CONFIG_BROKER_USERNAME,
+        .password = CONFIG_BROKER_PASSWORD,
     };
 #if CONFIG_BROKER_URL_FROM_STDIN
     char line[128];
