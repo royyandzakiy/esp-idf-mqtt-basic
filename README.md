@@ -41,7 +41,7 @@ I made some changes, because incompatibility of usage of the `esp_mqtt_client_co
 
 ```
 
-I also added a parameter for BROKER_USERNAME and BROKER_PASSWORD
+I also added some config parameters for `BROKER_USERNAME` and `BROKER_PASSWORD`
 ```
 config BROKER_USERNAME
         string "Broker Username"
