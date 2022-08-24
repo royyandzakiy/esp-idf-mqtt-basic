@@ -23,8 +23,9 @@ I use ESP IDF in **release/v4.4.1**, other versions may or may not work accordin
 - enjoy!
 
 ## To do:
-- as mentioned in the original [ESP IDF protocols repo](https://github.com/espressif/esp-idf/tree/ae256e9ca23a85e05f6a9ff31805028d3e823f4d/examples/protocols), to make an internet connection, this uses the function `example_connect()` which is currently unsafe and is used for simplification purposes (for details, go check the repo)
 - change the wifi implementation to then use the [ESP IDF WIFI Station repo](https://github.com/espressif/esp-idf/tree/ae256e9ca23a85e05f6a9ff31805028d3e823f4d/examples/wifi/getting_started/station)
+    - as mentioned in the original [ESP IDF protocols repo](https://github.com/espressif/esp-idf/tree/ae256e9ca23a85e05f6a9ff31805028d3e823f4d/examples/protocols), to make an internet connection, this uses the function `example_connect()` which is currently unsafe and is used for simplification purposes (for details, go check the repo)
+- change this repo into a component or submodule for ease of use. optionally make it into a cpp class/module
 
 ---
 
