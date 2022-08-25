@@ -44,14 +44,14 @@ I made some changes, because incompatibility of usage of the `esp_mqtt_client_co
 I also added some config parameters for `BROKER_USERNAME` and `BROKER_PASSWORD`
 ```
 config BROKER_USERNAME
-        string "Broker Username"
+        string "Mqtt Broker Username"
         default ""
         help
-            URL of the broker to connect to
+            Username of the broker, if there are any (leave empty if there are none)
 
     config BROKER_PASSWORD
-        string "Broker Password"
+        string "Mqtt Broker Password"
         default ""
         help
-            URL of the broker to connect to
+            Password of the broker, if there are any (leave empty if there are none)
 ```
